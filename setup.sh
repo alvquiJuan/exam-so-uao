@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt install cowsay
+dnf install -y cowsay
 
 # Solicitar al usuario su código de usuario y su nombre
 echo "Por favor, introduce tu código de usuario:"
