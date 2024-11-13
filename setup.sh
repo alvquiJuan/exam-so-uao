@@ -1,6 +1,7 @@
 #!/bin/bash
 
-dnf install -y cowsay
+dnf install -y https://dl.fedoraproject.org/pub/epel/9/Everything/x86_64/Packages/c/cowsay-3.7.0-10.el9.noarch.rpm
+dnf install -y tree
 
 # Solicitar al usuario su código de usuario y su nombre
 echo "Por favor, introduce tu código de usuario:"
